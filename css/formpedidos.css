@@ -4,6 +4,7 @@ body {
 
 h1 {
 	display: block;
+	border: 1px solid #08088A;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
