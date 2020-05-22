@@ -1,0 +1,85 @@
+body {
+	font-family: serif;
+}
+
+.titulo {
+	text-align: center;
+	font-size: 50px;
+	color: #0B0B61;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+nav{
+	width: 100%;
+	font-size:20px;
+	margin: 0;
+	padding: 45px;
+}
+
+nav ul li{
+	padding-bottom: 5px;
+	list-style: none;
+
+}
+nav ul li a {
+	background-color: #0B0B61;
+	color: yellow;
+	padding: 0px 20px;
+	text-decoration:none;
+
+}
+
+/*AL PASAR EL MOUSE POR EL MENU*/
+nav ul li a:hover{
+	background: darkgreen;
+	color:darkblue;
+	border-radius: 10px;
+}
+/*IMAGENES A CADA MENU*/
+.inicio {
+list-style-image: url(../img/Home.png);
+float: left;
+
+}
+.login {
+list-style-image: url(../img/Friends.png);
+clear:both;
+}
+.pedido {
+list-style-image: url(../img/Box.png);
+float:left;
+}
+.galeria {
+list-style-image: url(../img/Picture.png);
+clear:both;
+}
+.contacto {
+list-style-image: url(../img/Mail.png);
+float:clear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PIE DE PÁGINA*/
+
+footer img {
+	
+	float: left;
+	width: 10%;
+	border: 2px inset green;
+	border-radius: 50%
+
+}

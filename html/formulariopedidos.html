@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pedido Nuevo</title>
+	<link rel="stylesheet" type="text/css" href="../css/formpedidos.css">
+</head>
+<body>
+	<header><h1>Ingreso Pedido Nuevo</h1></header>
+	<form action="" method="post">
+		
+		<label for="idpedido">
+			<h2> Número Pedido </h2>
+		</label>
+
+			<input type="text" name="idpedido" disabled>
+
+		<label for="fechainipedido">
+			<h2>Fecha Creación Pedido</h2>
+		</label>
+		<input type="date" name="fechainipedido">
+		
+		<label for="fechaentpedido">
+			<h2>Fecha Entrega Pedido</h2>
+		</label>
+		<input type="date" name="fechaentpedido">
+
+		<label for="codproducto">
+			<h2>Código Producto</h2>
+		</label>
+		<input type="text" name="codproducto">
+
+		<label for="cantidad">
+			<h2>Cantidad</h2>
+		</label>
+		<input type="number" name="cantidad">
+		
+		<label for="observacion">
+			<h2>Observación</h2>
+		</label>
+		<input type="text" name="observacion">
+		<br>
+		<br>
+
+		<input type="submit" name="generarpedido" value="GENERAR PEDIDO">
+		<input type="reset" name="limpiar" value="LIMPIAR">
+
+	</form>			
+	
+
+</body>
+</html>
