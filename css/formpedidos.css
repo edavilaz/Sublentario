@@ -1,6 +1,8 @@
-body {
-
+body
+{
+	
 }
+
 
 h1 {
 	display: block;
@@ -48,7 +50,7 @@ input[name=observacion] {
 
 input[type=submit] {
 	width: 30%;
-	padding: 15px 5px;
+	padding: 10px 0px;
 	margin-bottom:10px;
 	border-radius: 15px;
 	background-color: #08088A;
@@ -57,7 +59,7 @@ input[type=submit] {
 }
 input[type=reset]{
 	width: 30%;
-	padding: 15px 5px;
+	padding: 10px 0px;
 	margin-bottom:10px;
 	border-radius: 15px;
 	background-color: red;
